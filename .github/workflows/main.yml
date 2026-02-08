@@ -1,0 +1,9 @@
+name: automation
+'on':
+  workflow_dispatch: null
+jobs:
+  automation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run the PytTest script
+        run: echo "Running from Github"
